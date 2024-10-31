@@ -1,0 +1,282 @@
+# Copyright (C) 2021 MyFatoorah
+# This file is distributed under the same license as the Myfatoorah - WooCommerce plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Myfatoorah - WooCommerce 2.0.0\n"
+"Report-Msgid-Bugs-To: MyFatoorah Plugins Support <tech@myfatoorah.com>\n"
+"Last-Translator: MyFatoorah Plugins Support <tech@myfatoorah.com>\n"
+"Language-Team: MyFatoorah Plugins Support <tech@myfatoorah.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-03-02T11:48:08+02:00\n"
+"PO-Revision-Date: 2021-03-02 17:55+0200\n"
+"X-Generator: Poedit 2.3\n"
+"X-Domain: myfatoorah-woocommerce\n"
+"Language: ar\n"
+
+#. Plugin Name of the plugin
+msgid "Myfatoorah - WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://myfatoorah.readme.io/docs/woocommerce"
+msgstr ""
+
+#. Description of the plugin
+msgid "Myfatoorah Payment Gateway for WooCommerce. Integrated with Myfatoorah DHL/Aramex Shipping Methods"
+msgstr "ماي فاتورة هي بوابة دفع خاصة للوكومرس. تدعم الشحن عن طريق الأرامكس وال DHL"
+
+#. Author of the plugin
+msgid "MyFatoorah"
+msgstr "ماي فاتورة"
+
+#. Author URI of the plugin
+msgid "https://www.myfatoorah.com/"
+msgstr ""
+
+#: includes/admin/payment.php:11
+msgid "Enable MyFatoorah"
+msgstr "تفعيل ماي فاتورة"
+
+#: includes/admin/payment.php:16
+msgid "This controls the title which the user sees during checkout."
+msgstr "يتحكم هذا في العنوان الذي يراه المستخدم أثناء الدفع."
+
+#: includes/admin/payment.php:23
+msgid "This controls the description which the user sees during checkout."
+msgstr "يتحكم هذا في الوصف الذي يراه المستخدم أثناء الدفع."
+
+#: includes/admin/payment.php:25
+msgid "Checkout with MyFatoorah Payment Gateway"
+msgstr "الدفع من خلال بوابة الدفع ماي فاتورة"
+
+#: includes/admin/payment.php:28 includes/admin/shipping.php:23
+msgid "Test Mode"
+msgstr "وضع الاختبار"
+
+#: includes/admin/payment.php:30 includes/admin/shipping.php:25
+msgid "Enable test / sandbox Mode"
+msgstr "تفعيل وضع الاختبار"
+
+#: includes/admin/payment.php:33 includes/admin/shipping.php:28
+msgid "Enable Test Mode"
+msgstr "تفعيل نظام الإختبار"
+
+#: includes/admin/payment.php:36 includes/admin/shipping.php:31
+msgid "API Key"
+msgstr "المفتاح الرمزي API"
+
+#: includes/admin/payment.php:38 includes/admin/shipping.php:33
+msgid "Get your API Token Key from Myfatoorah Vendor Account."
+msgstr "احصل على رمز API الخاص بك من حساب ماي فاتورة."
+
+#: includes/admin/payment.php:42
+msgid "List Payment Options"
+msgstr "قائمة خيارات الدفع"
+
+#: includes/admin/payment.php:44
+msgid "MyFatoorah is default gateway. You can select one of below payment gateway which the user can checkout directly from it."
+msgstr "ماي فاتورة هي البوابة الافتراضية. يمكنك اختيار واحدة من بوابات الدفع أدناه والتي يمكن للمستخدم الدفع من خلالها مباشرة."
+
+#: includes/admin/payment.php:48
+msgid "Myfatoorah Invoice Page (Redirect)"
+msgstr "إعادة التوجيه إلي صفحة ماي فاتورة للدفع"
+
+#: includes/admin/payment.php:49
+msgid "List All Enabled Gateways in Checkout Page"
+msgstr "سرد جميع طرق الدفع المفعلة في صفحة الدفع"
+
+#: includes/admin/payment.php:55
+msgid "How to mark the successful payment in the Admin Orders Page."
+msgstr "تحديد حالة الطلبات الناجحة التي سوف تظهر في صفحة الطلبات في منصة الادمن."
+
+#: includes/admin/payment.php:64
+msgid "Payment Success URL"
+msgstr "عنوان الرابط الخاص بنجاح الدفع"
+
+#: includes/admin/payment.php:66
+msgid "Please insert your Success url."
+msgstr "الرجاء إدخال عنوان الرابط الخاص بصفحة اظهار بيانات عمليات الدفع الناجحة."
+
+#: includes/admin/payment.php:72
+msgid "Payment Fail URL"
+msgstr "عنوان الرابط الخاص بفشل الدفع"
+
+#: includes/admin/payment.php:74
+msgid "Please insert your Fail url."
+msgstr "الرجاء إدخال عنوان الرابط الخاص بصفحة اظهار بيانات عمليات الدفع الفاشلة."
+
+#: includes/admin/payment.php:80 includes/admin/shipping.php:37
+msgid "Debug Mode"
+msgstr "تفعيل وضع التشخيص البرمجي"
+
+#: includes/admin/payment.php:82 includes/admin/shipping.php:39
+msgid "Log MyFatoorah events in "
+msgstr "تسجيل الأحداث الخاصة بماي فاتورة في ملف "
+
+#: includes/admin/payment.php:85 includes/admin/shipping.php:42
+msgid "Enable logging"
+msgstr "تفعيل التسجيل"
+
+#: includes/admin/payment.php:88
+msgid "MyFatoorah Logo URL"
+msgstr "عنوان الرابط الخاص بشعار الدفع"
+
+#: includes/admin/payment.php:90
+msgid "Please insert your logo url which the user sees during checkout."
+msgstr "يرجى إدخال رابط الخاص بالشعار الذي يراه المستخدم في صفحه الدفع."
+
+#: includes/admin/shipping.php:13
+msgid "Enable MyFatoorah Shipping"
+msgstr "تفعيل الشحن عن طريق ماي فاتورة"
+
+#: includes/admin/shipping.php:18
+msgid "Title to be display on site"
+msgstr "العنوان في الموقع"
+
+#: includes/admin/shipping.php:20
+msgid "Myfatoorah Shipping"
+msgstr "شحن عن طريق ماي فاتورة"
+
+#: includes/admin/shipping.php:45
+msgid "Enable DHL / Aramex"
+msgstr "تفعيل الشحن من خلال ماي فاوره"
+
+#: includes/admin/shipping.php:47
+msgid "DHL / Aramex"
+msgstr "DHL / أرامكس"
+
+#: includes/admin/shipping.php:51
+msgid "Exclude countries from shipping rates"
+msgstr "استبعاد البلدان من أسعار الشحن"
+
+#: includes/admin/shipping.php:53
+msgid "Exclude countries from MyFatoorah shipping rates."
+msgstr "استبعاد البلدان من أسعار الشحن في ماي فاتورة."
+
+#: includes/payments/class-wc-gateway-myfatoorah-direct.php:34
+msgid "The Myfatoorah Gateway is simple and powerful. The plugin works by adding credit card fields on the checkout page, and then sending the details to myfatoorah for verification."
+msgstr "بوابة ماي فاتورة بسيطة وفعالة، تعمل الإضافه عن طريق إضافة حقول بطاقة الائتمان في صفحة الخروج ، ثم إرسال التفاصيل إلى ماي فاتورة للتحقق منها."
+
+#: includes/payments/class-wc-gateway-myfatoorah-direct.php:97
+#: includes/payments/class-wc-gateway-myfatoorah-direct.php:150
+#: includes/payments/class-wc-gateway-myfatoorah-v2.php:79
+msgid "Myfatoorah forces SSL checkout Payemnt. Your checkout is not secure! Please, contact site admin to enable SSL and ensure that the server has a valid SSL certificate."
+msgstr "ماي فاتورة يفرض دفع SSL . تسجيل الخروج الخاص بك غير آمن! يرجى الاتصال بمسؤول الموقع لتمكين SSL والتأكد من أن الخادم لديه شهادة SSL صالحة."
+
+#: includes/payments/class-wc-gateway-myfatoorah-direct.php:100
+msgid "Direct Payment Methods are not activated. Kindly, contact your MyFatoorah account manager or sales representative to activate it."
+msgstr "لم يتم تفعيل طرق الدفع المباشر. يرجى الاتصال بمدير حساب ماي فاتورة أو مندوب المبيعات لتفعيله."
+
+#: includes/payments/class-wc-gateway-myfatoorah-direct.php:161
+msgid "Card number is invalid."
+msgstr "رقم البطاقة غير صالح."
+
+#: includes/payments/class-wc-gateway-myfatoorah-direct.php:167
+msgid "Card security code is invalid (only digits are allowed)."
+msgstr "رمز أمان البطاقة غير صالح (يسمح فقط بالأرقام)."
+
+#: includes/payments/class-wc-gateway-myfatoorah-direct.php:172
+msgid "Card security code is invalid (wrong length)."
+msgstr "رمز أمان البطاقة غير صالح (طول خاطئ)."
+
+#: includes/payments/class-wc-gateway-myfatoorah-direct.php:182
+msgid "Card expiration date is invalid"
+msgstr "تاريخ انتهاء صلاحية البطاقة غير صالح"
+
+#: includes/payments/class-wc-gateway-myfatoorah-v2.php:35
+msgid "The Myfatoorah Gateway is simple and powerful. The plugin works by sending customers to Myfatoorah invoice page to enter their payment information."
+msgstr "بوابة ماي فاتورة بسيطة وفعالة. يعمل المكون الإضافي عن طريق إرسال العملاء إلى صفحة فاتورة ماي فاتورة لإدخال معلومات الدفع الخاصة بهم."
+
+#: includes/payments/class-wc-gateway-myfatoorah.php:29
+msgid "Myfatoorah - "
+msgstr "ماي فاتورة - "
+
+#: includes/payments/class-wc-gateway-myfatoorah.php:79
+msgid "Please, refund manually for this order"
+msgstr "الرجاء رد الأموال يدويًا لهذا الطلب"
+
+#: includes/payments/class-wc-gateway-myfatoorah.php:92
+msgid "Myfatoorah refund completed. Refund Reference ID: "
+msgstr "اكتملت عملية الاسترداد. رقم الاسترداد المرجعي: "
+
+#: includes/payments/class-wc-gateway-myfatoorah.php:148
+#: includes/shipping/class-wc-shipping-myfatoorah.php:147
+msgid "MyFatoorah DHL Shipping"
+msgstr "شحن عن طريق دي إتش إل"
+
+#: includes/payments/class-wc-gateway-myfatoorah.php:148
+#: includes/shipping/class-wc-shipping-myfatoorah.php:147
+msgid "MyFatoorah Aramex Shipping"
+msgstr "شحن عن طريق أرامكس"
+
+#: includes/payments/class-wc-gateway-myfatoorah.php:243
+msgid "Discount"
+msgstr "الخصم"
+
+#: includes/payments/class-wc-gateway-myfatoorah.php:251
+msgid "Shipping"
+msgstr "الشحن"
+
+#: includes/payments/class-wc-gateway-myfatoorah.php:258
+msgid "Fees"
+msgstr "الرسوم"
+
+#: includes/shipping/class-wc-shipping-myfatoorah.php:17
+#: includes/shipping/class-wc-shipping-myfatoorah.php:25
+msgid "MyFatoorah Shipping API Ver 2.0"
+msgstr "ماي فاتورة للشحن الاصدار الثاني"
+
+#: includes/shipping/class-wc-shipping-myfatoorah.php:18
+msgid "Custom Shipping Method for myfatoorah"
+msgstr "طريقة الشحن المخصصة لماي فاتورة"
+
+#: includes/shipping/class-wc-shipping-myfatoorah.php:78
+#: myfatoorah-woocommerce-shipping.php:163
+msgid "Kindly, review your Myfatoorah admin configuration due to a wrong entry to get Myfatoorah shipping cities."
+msgstr "الرجاء التاكد من اعدادت ماي فاتورة في منصة الادمن حتي تستطيع الحصول على قائمة المدن الخاصة بالشحن."
+
+#: includes/shipping/class-wc-shipping-myfatoorah.php:88
+msgid "Select Town / City"
+msgstr "اختار المدينة / القرية"
+
+#: includes/shipping/class-wc-shipping-myfatoorah.php:125
+msgid "Please make sure products have dimentions and wieght as well to get right Myfatoorah Shipping rates."
+msgstr "الرجاء التاكد من ان سجل المنتجات يحتوي على بيانات الوزن والابعاد حتى تستطيع ماي فاتورة من حساب تكلفة الشحن."
+
+#: myfatoorah-woocommerce-payment.php:75
+msgid "View MyFatoorah documentation"
+msgstr "عرض وثائق ماي فاتورة"
+
+#: myfatoorah-woocommerce-payment.php:76
+msgid "View MyFatoorah API docs"
+msgstr "عرض وثائق API الخاصة بماي فاتورة"
+
+#: myfatoorah-woocommerce-payment.php:77
+msgid "Visit premium customer support"
+msgstr "قم بالاتصال بقسم الدعم الفني"
+
+#: templates/paymentFieldsDirect.php:16
+msgid "Credit Card Type"
+msgstr "نوع بطاقة الائتمان"
+
+#: templates/paymentFieldsDirect.php:35 templates/paymentFieldsDirect.php:38
+msgid "Card Holder Name"
+msgstr "إسم صاحب البطاقة"
+
+#: templates/paymentFieldsDirect.php:45
+msgid "Credit Card Number"
+msgstr "رقم بطاقه الائتمان"
+
+#: templates/paymentFieldsDirect.php:56
+msgid "Expiration Date"
+msgstr "تاريخ إنتهاء الصلاحية"
+
+#: templates/paymentFieldsDirect.php:78
+msgid "3 or 4 digits usually found on the signature strip."
+msgstr "عادة ما توجد 3 أو 4 أرقام على شريط التوقيع."
+
+#: templates/paymentFieldsDirect.php:80
+msgid "Card Security Code"
+msgstr "رمز أمان الكرت"
